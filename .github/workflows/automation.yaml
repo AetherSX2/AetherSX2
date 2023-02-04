@@ -1,5 +1,8 @@
 name: Build Tdlib Linux 
-on: [workflow_dispatch]
+on: 
+  schedule:
+    - cron: "0 0 * * 0"
+
 jobs:
   build:
     name: Build
@@ -7,6 +10,7 @@ jobs:
     steps:
       - name: Export Release Timestamp
         run: echo "APP_VERSION=v$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
+      - name: Github
       - name: Publish Release
         uses: marvinpinto/action-automatic-releases@latest
         with:
@@ -15,3 +19,11 @@ jobs:
           prerelease: false
           title: "Release Latest"
           files: *
+      - name: Release Repo
+        run: |
+          git config --local user.email "￴"
+          git config --local user.name "￴"
+          echo "$(date)" > time.md
+          git add .
+          git commit -a -m "￴"
+          git push
