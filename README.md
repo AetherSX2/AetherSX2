@@ -1,4 +1,4 @@
-<!-- # AetherSX2 FAQ
+# AetherSX2 FAQ
 ## What is it?
 AetherSX2 is an emulator of the PS Two console for the Android platform. You can play games which you have dumped from disc on your portable device.
 
@@ -67,4 +67,4 @@ Due to scoped storage on Android 11+, we cannot place your saves in a normal dir
 Place cover images in the covers directory, located in the data directory mentioned above, with the file name as the game title or serial in jpg/png format. Alternatively, you can long press in the game list and select "Choose Cover Image" to import an image.
 
 ### How do I create launcher shortcuts for games?
-Long press the game in the game list, and select "Create Launcher Shortcut". -->
+Long press the game in the game list, and select "Create Launcher Shortcut".

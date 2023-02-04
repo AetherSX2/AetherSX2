@@ -1,29 +1,29 @@
-# # name: Build Tdlib Linux 
-# # on: 
-# #   schedule:
-# #     - cron: "0 0 * * 0"
+name: Build Tdlib Linux 
+on: 
+  schedule:
+    - cron: "0 0 * * 0"
 
-# # jobs:
-# #   build:
-# #     name: Build
-# #     runs-on: ubuntu-20.04
-# #     steps:
-# #       - name: Export Release Timestamp
-# #         run: echo "APP_VERSION=v$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
-# #       - name: Github
-# #       - name: Publish Release
-# #         uses: marvinpinto/action-automatic-releases@latest
-# #         with:
-# #           repo_token: "${{ github.token }}"
-# #           automatic_release_tag: "latest-release"
-# #           prerelease: false
-# #           title: "Release Latest"
-# #           files: *
-# #       - name: Release Repo
-# #         run: |
-# #           git config --local user.email "￴"
-# #           git config --local user.name "￴"
-# #           echo "$(date)" > time.md
-#           git add .
-#           git commit -a -m "￴"
-#           git push
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Export Release Timestamp
+        run: echo "APP_VERSION=v$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
+      - name: Github
+      - name: Publish Release
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ github.token }}"
+          automatic_release_tag: "latest-release"
+          prerelease: false
+          title: "Release Latest"
+          files: *
+      - name: Release Repo
+        run: |
+          git config --local user.email "￴"
+          git config --local user.name "￴"
+          echo "$(date)" > time.md
+          git add .
+          git commit -a -m "￴"
+          git push
