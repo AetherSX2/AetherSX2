@@ -1,4 +1,28 @@
 # AetherSX2 FAQ
+
+### NEW Updates
+
+AetherSX2 development is indefinitely suspended.
+Due to neverending impersonating, complaints, demands, and now death threats, I'm done.
+
+You can still download/use the app and it will continue to work for the forseeable future.
+
+AetherSX2 was always meant to be a fun hobby for me, not profit driven. It doesn't make sense to continue working on a hobby which isn't fun anymore.
+
+Stay safe out there, and watch out for scammers, there seems to be a lot of them.
+
+(e.g. there's multiple people claiming to represent AetherSX2 on various social media - they are not legit)
+
+Thanks to everyone who wasn't a d*ck for the last year.
+
+Current build downloads are still available at https://www.aethersx2.com/archive/ - please follow good security hygiene and don't install APKs from random sources.
+
+Update 2023/01/10: I no longer have any active online presence in any community. Anyone claiming to be Tahlreth, or represent AetherSX2, is impersonating and scamming you.
+I hope the threats and hate will stop now.
+
+---
+
+
 ## What is it?
 AetherSX2 is an emulator of the PS Two console for the Android platform. You can play games which you have dumped from disc on your portable device.
 
