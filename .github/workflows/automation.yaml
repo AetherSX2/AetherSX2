@@ -1,17 +1,17 @@
-name: Build Tdlib Linux 
-on: [workflow_dispatch]
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Export Release Timestamp
-        run: echo "APP_VERSION=v$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
-      - name: Publish Release
-        uses: marvinpinto/action-automatic-releases@latest
-        with:
-          repo_token: "${{ github.token }}"
-          automatic_release_tag: "latest-release"
-          prerelease: false
-          title: "Release Latest"
-          files: *
+# name: Build Tdlib Linux 
+# on: [workflow_dispatch]
+# jobs:
+#   build:
+#     name: Build
+#     runs-on: ubuntu-20.04
+#     steps:
+#       - name: Export Release Timestamp
+#         run: echo "APP_VERSION=v$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
+#       - name: Publish Release
+#         uses: marvinpinto/action-automatic-releases@latest
+#         with:
+#           repo_token: "${{ github.token }}"
+#           automatic_release_tag: "latest-release"
+#           prerelease: false
+#           title: "Release Latest"
+#           files: *
