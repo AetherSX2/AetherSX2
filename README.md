@@ -1,4 +1,4 @@
-# AetherSX2 FAQ
+# AetherSX2
 
 ### NEW Updates
 
@@ -22,6 +22,9 @@ I hope the threats and hate will stop now.
 
 ---
 
+
+
+## FAQ
 
 ## What is it?
 AetherSX2 is an emulator of the PS Two console for the Android platform. You can play games which you have dumped from disc on your portable device.
