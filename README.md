@@ -45,9 +45,16 @@ it is not guaranteed to be functional.
 
 Build steps:
 
-1. Extract aethersx2-libemucore.tar.xz: tar xvf aethersx2-libemucore.tar.xz
-2. Change into that directory: cd aethersx2
-3. Create a build directory for the native library and change into it: mkdir build-android; cd build-android
+1. Clone repo
+    ```bash
+    git clone https://github.com/AetherSX2/AetherSX2.git
+    cd AetherSX2
+    ```
+3. Create a build directory for the native library and change into it:
+    ```bash
+    mkdir build-android
+    cd build-android
+    ```
 4. Configure the build system. Change PATH_TO_NDK to whereever the NDK is installed: cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/PATH_TO_NDK/build/cmake/android.toolchain.cmake -DANDROID_PLATFORM=android-26 -DANDROID_ABI=arm64-v8a ..
 5. Compile the native library: make -j16 (or whatever CPU count you have)
 6. Create a directory for packaging the APK: mkdir apk; cd apk
