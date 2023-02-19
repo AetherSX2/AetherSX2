@@ -20,6 +20,10 @@ Current build downloads are still available at https://www.aethersx2.com/archive
 Update 2023/01/10: I no longer have any active online presence in any community. Anyone claiming to be Tahlreth, or represent AetherSX2, is impersonating and scamming you.
 I hope the threats and hate will stop now.
 
+note [not added by project author, but may be of relevance to anyone reading this]: if you wish to salvage some of the work that went into this project so that it isn't entirely
+in vein, while that will be difficult with some parts being proprietary, https://gitlab.com/Mis012/aethersx2-reconstituted-git-history - a mirror with reconstituted git history
+- may help you with the task of upstreaming relevant code changes into PCSX2 (even though some reverse engineering will still be required for the proprietary parts)
+
 ---
 
 ## FAQ
